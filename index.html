@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fake Pinterest</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
+    <!-- <link rel="stylesheet" href="assets/style.css"> -->
+</head>
+
+<body class="vw-100 vh-100 m-0">
+
+    <div class="d-flex w-100 vh-100">
+
+        <!-- conteudo principal -->
+        <div class="flex-grow-1">
+            <nav class="navbar border border-bottom">
+                <div class="container-fluid">
+                    <span class="navbar-brand mb-0 h1">Criar Pin</span>
+                </div>
+            </nav>
+
+            <form class="d-flex flex-column">
+                <!-- area upload -->
+                <div class="border">
+                    <div>
+                        <i class="bi bi-image"></i>
+                        <div>Envie seus arquivos de mídia</div>
+                        <div>Selecione vários arquivos no seu seletor de arquivos usando a tecla Shift ou Cmd/Ctrl</div>
+
+                        <div>JPG, PNG até 20 MB · MP4 até 200 MB</div>
+                    </div>
+                </div>
+
+                <!-- demais campos -->
+                <div>
+                    <div class="mb-3">
+                        <label for="titulo">Título</label>
+                    </div>
+                    <input type="password" class="form-control" id="titulo" placeholder="Título">
+                </div>
+            </form>
+
+        </div>
+
+        <!-- aba rascunhos -->
+        <div class="aba-rascunhos flex-shrink-0" style="min-width: 300px !important; width: 300px !important;">
+            <div class="border border-bottom p-3">
+                <div class="d-flex justify-content-between mb-3">Rascunhos de Pin <i class="bi bi-x-lg"></i></div>
+                <button class="btn btn-danger w-100">Criar novo</button>
+            </div>
+            <div>Imagem aqui</div>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

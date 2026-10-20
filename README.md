@@ -20,4 +20,4 @@ Projeto front-end inspirado no Pinterest, desenvolvido para praticar HTML, CSS, 
 
 ## Acesse o projeto
 
-[Visualizar projeto](COLE_AQUI_O_LINK_DO_GITHUB_PAGES)
+[Visualizar projeto](https://hick-hpe.github.io/fake-pinterest/)
